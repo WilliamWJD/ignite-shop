@@ -1,40 +1,75 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Shop de Camisetas
 
-## Getting Started
+Bem-vindo ao repositório do Shop de Camisetas! Este projeto é um e-commerce para a compra de camisetas com integração ao gateway de pagamento Stripe. O projeto foi desenvolvido utilizando as seguintes tecnologias: React, NextJS, CSS-in-JS, Stripe, SSG (Static Site Generation) e SSR (Server-Side Rendering).
 
-First, run the development server:
+## Sumário
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- [Introdução](#introdução)
+- [Imagens](#imagens)
+- [Funcionalidades](#funcionalidades)
+- [Tecnologias Utilizadas](#tecnologias-utilizadas)
+- [Instalação](#instalação)
+- [Como Usar](#como-usar)
+- [Contribuição](#contribuição)
+- [Contato](#contato)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Introdução
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+O objetivo deste projeto é oferecer uma plataforma simples e eficiente para a compra de camisetas online, utilizando métodos modernos de desenvolvimento web. Com a integração do Stripe, os usuários podem realizar pagamentos de maneira segura e rápida.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+## Imagens
+<img src="./assets/img1.png" width="1200px"/>
+<img src="./assets/img2.png" width="1200px"/>
+<img src="./assets/img3.png" width="1200px"/>
+<img src="./assets/img4.png" width="1200px"/>
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Funcionalidades
 
-## Learn More
+- Listagem de camisetas disponíveis para compra
+- Detalhes do produto
+- Checkout com integração ao Stripe
 
-To learn more about Next.js, take a look at the following resources:
+## Tecnologias Utilizadas
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **React**: Biblioteca JavaScript para construção de interfaces de usuário
+- **NextJS**: Framework React para renderização server-side e geração de sites estáticos
+- **CSS-in-JS**: Estilização de componentes utilizando JavaScript
+- **Stripe**: Plataforma de pagamentos online
+- **SSG (Static Site Generation)**: Geração de páginas estáticas no momento do build
+- **SSR (Server-Side Rendering)**: Renderização de páginas no servidor a cada requisição
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Instalação
 
-## Deploy on Vercel
+Siga os passos abaixo para configurar o ambiente de desenvolvimento local:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. Clone este repositório:
+   ```bash
+   git clone https://github.com/WilliamWJD/ignite-shop.git
+    ```
+2. Navegue até o diretório do projeto:
+    ```bash
+    cd ignite-shop
+    ```
+3. Instale as dependêcnias
+    ```bash
+    npm install
+    ```
+4. Inicie o servidor de desenvolvimento
+    ```bash
+    npm run dev
+    ```
+## Como Usar
+1. Acesse a aplicação em http://localhost:3000.
+2. Navegue pela lista de camisetas.
+3. Selecione a camiseta desejada.
+4. Finalize a compra utilizando o sistema de pagamento do Stripe.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Se você tiver alguma dúvida, entre em contato:
+
+- Nome: William José Dias
+- Email: william.jose.wjd@gmail.com
+
+---
+
+Desenvolvido por [William José Dias!](https://github.com/WilliamWJD)
